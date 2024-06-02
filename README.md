@@ -34,7 +34,7 @@ npm install --global @darrylblake/create-component
 To customize and develop this utility further, clone the repository locally:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/darrylblake/create-component.git
 cd create-component/
 npm install
 npm link
