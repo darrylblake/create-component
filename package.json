@@ -1,0 +1,36 @@
+{
+  "name": "@darrylblake/create-component",
+  "version": "1.0.0",
+  "description": "A very opinionated command-line utility to generate scaffolding for a minimal TypeScript React component with optional unit test, Storybook demo, and module SCSS file.",
+  "type": "module",
+  "bin": {
+    "create-component": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "create-component ExampleComponent"
+  },
+  "keywords": [
+    "reduce toil",
+    "react",
+    "reactjs",
+    "cli",
+    "component",
+    "boilerplate",
+    "scaffolding"
+  ],
+  "author": "Darryl Blake",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "12.1.0",
+    "fs-extra": "11.2.0",
+    "handlebars": "4.7.8",
+    "inquirer": "9.2.23"
+  },
+  "devDependencies": {
+    "@storybook/react": "8.1.5",
+    "@testing-library/react": "15.0.7",
+    "@types/react": "18.3.3",
+    "react": "18.3.1",
+    "typescript": "5.4.5"
+  }
+}
