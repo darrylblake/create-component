@@ -1,0 +1,12 @@
+import React from "react";
+{{#if createScssModule}}
+import style from "./{{componentName}}.module.scss";
+{{/if}}
+
+type {{componentName}}Props = {
+  children: React.ReactNode;
+};
+
+export const {{componentName}} = ({ children }: {{componentName}}Props) => {
+  return <div{{#if createScssModule}} className={style.container}{{/if}}>{children}</div>;
+};

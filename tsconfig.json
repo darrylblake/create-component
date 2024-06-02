@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true
+  },
+  "include": ["ExampleComponent", "types/global.d.ts"],
+  "exclude": ["node_modules"]
+}
