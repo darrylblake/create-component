@@ -4,3 +4,9 @@ declare module "*.module.scss" {
 }
 
 declare var it: (description: string, callback: () => void) => void;
+
+declare var expect: {
+  (value: any): {
+    toBeInTheDocument(): void;
+  };
+};

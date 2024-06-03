@@ -3,5 +3,6 @@ import { render } from "@testing-library/react";
 import { {{componentName}} } from "./{{componentName}}";
 
 it("should render correctly", () => {
-  const { container } = render(<{{componentName}}>Children</{{componentName}}>);
+  const { getByText } = render(<{{componentName}}>Children</{{componentName}}>);
+  expect(getByText("Children")).toBeInTheDocument();
 });
