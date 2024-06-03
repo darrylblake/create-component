@@ -4,25 +4,25 @@ A **VERY opinionated** command-line utility to generate scaffolding for a minima
 TypeScript React component with an optional unit test, Storybook demo, and
 module SCSS file.
 
-# Component Creator
-
-A **VERY opinionated** command-line utility to generate scaffolding for a minimal
-TypeScript React component with an optional unit test, Storybook demo, and
-module SCSS file.
-
 > [!NOTE]  
 > This is a work in progress and may change.
 
+### Usage
+
+To generate a new component, use the following command:
+
+```bash
+create-component <ComponentName> [/optional/component/path]
+```
+
 ## Why?
 
-I created this to streamline the creation of TypeScript React components in the
-way I build them by providing a consistent and minimal scaffolding structure. It
-ensures that each component is accompanied by the necessary testing and
-documentation files.
+I created this to reduce toil as I generally create the same scaffolding for the
+presentational components I create in the React projects I work in.
 
 ### Installation
 
-To install the create-component globally, run:
+To install the `create-component` util globally, run:
 
 ```bash
 npm install --global @darrylblake/create-component
@@ -57,12 +57,4 @@ You can find an example of the [generated output here](./ExampleComponent).
 ├── ExampleComponent.test.tsx
 ├── ExampleComponent.stories.tsx
 └── ExampleComponent.module.scss
-```
-
-### Usage
-
-To generate a new component, use the following command:
-
-```bash
-create-component <ComponentName> [/optional/component/path]
 ```
