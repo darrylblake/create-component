@@ -2,6 +2,11 @@
   "name": "@darrylblake/create-component",
   "version": "1.0.0",
   "description": "A very opinionated command-line utility to generate scaffolding for a minimal TypeScript React component with optional unit test, Storybook demo, and module SCSS file.",
+  "homepage": "https://github.com/darrylblake/create-component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darrylblake/create-component"
+  },
   "type": "module",
   "bin": {
     "create-component": "./bin/index.js"
