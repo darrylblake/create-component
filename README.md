@@ -1,4 +1,4 @@
-# Component Creator
+# Create Component
 
 A **VERY opinionated** command-line utility to generate scaffolding for a minimal
 TypeScript React component with an optional unit test, Storybook demo, and
