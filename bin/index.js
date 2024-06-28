@@ -41,7 +41,7 @@ async function promptForActions(componentName, componentPath) {
       suffix: " (this will also include a style import in the component file)",
       name: "createScssModule",
       type: "confirm",
-      default: true,
+      default: false,
     },
   ]);
 
