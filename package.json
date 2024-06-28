@@ -12,7 +12,7 @@
     "create-component": "./bin/index.js"
   },
   "scripts": {
-    "test": "create-component ExampleComponent"
+    "test": "rm -rf ./ExampleComponent && create-component ExampleComponent"
   },
   "keywords": [
     "reduce toil",
