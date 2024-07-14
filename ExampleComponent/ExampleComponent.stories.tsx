@@ -3,4 +3,6 @@ import { ExampleComponent } from "./ExampleComponent";
 
 export const Base = () => <ExampleComponent>ExampleComponent</ExampleComponent>;
 
-export default {};
+export default {
+  component: ExampleComponent,
+};
