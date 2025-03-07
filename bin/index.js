@@ -14,6 +14,7 @@ const __dirname = path.dirname(__filename);
 const templatesPath = path.join(__dirname, "..", "templates");
 
 program
+  .version("0.0.1")
   .argument("<componentName>", "name of the component")
   .argument("[componentPath]", "optional path for the component")
   .action((componentName, componentPath) => {
